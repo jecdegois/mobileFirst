@@ -157,12 +157,28 @@ main {
   font-family: "inter", sans-serif;
 }
 
+.main-comission-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "inter", sans-serif;
+}
+
 .main-currency-table .currency-table--title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
   color: var(--bitcoin-orange);
+}
+.main-comission-table .comission-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
 }
 
 .currency-table--container {
