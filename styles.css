@@ -150,7 +150,6 @@ main {
 
 .main-currency-table {
   width: 70%;
-  scroll-snap-align: center;
   min-width: 235px;
   max-width: 500px;
   height: 360px;
@@ -160,7 +159,6 @@ main {
 
 .main-comission-table {
   width: 70%;
-  scroll-snap-align: center;
   min-width: 235px;
   max-width: 500px;
   height: 360px;
@@ -573,14 +571,4 @@ footer .left ul {
 .left a {
   text-decoration: none;
   color: var(--just-white);
-}
-
-.main-tables-container {
-  display: flex;
-  /*gap: 50px;*/
-  height: 400px;
-  overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  overflow-y: hidden;
 }
